@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_record">
+
+    <EditText
+        android:id="@+id/record_hospitalname"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="537dp"
+        android:ems="10"
+        android:hint="Hospital Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <EditText
+        android:id="@+id/record_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="473dp"
+        android:ems="10"
+        android:hint="Operation/Test Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/record_prescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="407dp"
+        android:ems="10"
+        android:hint="Prescription"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/record_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="344dp"
+        android:ems="10"
+        android:hint="Result"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/record_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="281dp"
+        android:ems="10"
+        android:hint="Upload Report"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/record_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="216dp"
+        android:ems="10"
+        android:hint="Upload Bill"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/record_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="150dp"
+        android:text="Add Record" />
+
+    <EditText
+        android:id="@+id/record_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="604dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Enter ID"
+        android:inputType="none"
+        android:text="ID: " />
+
+    <Button
+        android:id="@+id/record_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="69dp"
+        android:text="View Record" />
+</RelativeLayout>

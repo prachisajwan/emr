@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emr">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Emr">
+        <activity android:name=".Update_records"></activity>
+        <activity android:name=".user_view_record">
+            android:noHistory="true"
+        </activity>
+        <activity android:name=".check_access">
+            android:noHistory="true"
+        </activity>
+        <activity android:name=".view_record">
+            android:noHistory="true"
+        </activity>
+        <activity android:name=".add_record">
+            android:noHistory="true"
+        </activity>
+        <activity android:name=".userside_records" /> <!-- <uses-library -->
+        <!-- android:name="com.google.android.wearable" -->
+        <!-- android:required="false" /> -->
+        <!-- &lt;!&ndash; -->
+        <!-- Set to true if your app is Standalone, that is, it does not require the handheld -->
+        <!-- app to run. -->
+        <!-- &ndash;&gt; -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.wearable.standalone" -->
+        <!-- android:value="false" /> -->
+        <activity
+            android:name=".signup_page"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".login_page"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".user_login"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".add_access"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".hosp_login"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
