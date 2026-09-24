@@ -78,21 +78,21 @@ Database creation and operations are handled through database helper classes wit
 ## Application Flow
 
 ```text
-                         EMR
-                          │
-               ┌──────────┴──────────┐
-               │                     │
-            Patient               Hospital
-               │                     │
-          Sign Up / Login       Patient Access
-               │                     │
-        ┌──────┴──────┐       ┌─────┴─────┐
-        │             │       │           │
-   Add Record    View Records  Add Record  View Records
-        │             │       │           │
-        └─────────────┴───────┴───────────┘
-                          │
-                       SQLite
+                           EMR
+                            │
+               ┌────────────┴────────────┐
+               │                         │
+            Patient                  Hospital
+               │                         │
+          Sign Up / Login          Patient Access
+               │                         │
+        ┌──────┴──────┐           ┌──────┴─────┐
+        │             │           │            │
+   Add Record    View Records   Add Record  View Records
+        │             │           │            │
+        └─────────────┴───────────┴────────────┘
+                            │
+                         SQLite
 ```
 
 ## Project Status
@@ -100,6 +100,18 @@ Database creation and operations are handled through database helper classes wit
 This repository contains the source code of the original **2021 version** of the project.
 
 The project has been preserved primarily as an academic and portfolio project. Because it was developed using Android tooling and dependencies available at the time, newer versions of Android Studio, Gradle, or the Android SDK may require configuration changes before the application can be built and run.
+
+## Application Screenshots
+
+The screenshots below are from the original 2021 version of the application.
+
+<img width="707" height="1502" alt="Screenshot_20210511-182423" src="https://github.com/user-attachments/assets/74c072e0-e755-41e6-aa1c-3bac10d00ad9" />
+<img width="703" height="1513" alt="Screenshot_20210511-182406" src="https://github.com/user-attachments/assets/390d4a88-7c77-4061-9aab-d0eaaeeade70" />
+<img width="704" height="1504" alt="Screenshot_20210511-182503" src="https://github.com/user-attachments/assets/3f7a4f6f-e334-43fb-9bf8-b5d1db3218dc" />
+<img width="704" height="1510" alt="Screenshot_20210511-182441" src="https://github.com/user-attachments/assets/c522c44b-b632-4ca1-8eb1-f059b4d6c6bf" />
+<img width="704" height="1511" alt="Screenshot_20210511-182430" src="https://github.com/user-attachments/assets/c88d565d-a012-4e72-ad89-1b3add0fcaf9" />
+<img width="703" height="1535" alt="Screenshot_20210511-182416" src="https://github.com/user-attachments/assets/8cebdd19-f636-4908-ad13-68dd9513ffe2" />
+
 
 ## Important Note
 
