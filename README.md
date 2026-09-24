@@ -108,14 +108,14 @@ Screenshots from the original 2021 version of the application.
 ### Patient Registration
 Patients can create an account with their personal details and a unique ID.
 
-<img width="230" alt="Patient registration screen" src="https://github.com/user-attachments/assets/06259e28-e031-4fc0-989d-05b1a2b6886c" />
+<img width="230" height="470" alt="Patient registration screen" src="https://github.com/user-attachments/assets/06259e28-e031-4fc0-989d-05b1a2b6886c" />
 
 
 ### Patient Login & Hospital Access
 
 <p>
-  <img width="230" alt="Patient login" src="https://github.com/user-attachments/assets/a7f6f03c-b1d0-4be9-8ee2-1d6ac91accb9" />
-  <img width="230" alt="Hospital access" src="https://github.com/user-attachments/assets/b844136a-2b3c-422b-bdaa-d22e2e230106" />
+  <img width="230" height="470" alt="Patient login" src="https://github.com/user-attachments/assets/a7f6f03c-b1d0-4be9-8ee2-1d6ac91accb9" />
+  <img width="230" height="470" alt="Hospital access" src="https://github.com/user-attachments/assets/b844136a-2b3c-422b-bdaa-d22e2e230106" />
 </p>
 
 Patients authenticate using their email, ID, and password, while the hospital workflow accesses a patient using their name and ID.
@@ -123,9 +123,9 @@ Patients authenticate using their email, ID, and password, while the hospital wo
 ### Medical Records
 
 <p>
-  <img width="230" alt="Add medical record" src="https://github.com/user-attachments/assets/65eea734-d5ea-46d4-84bb-8bd311934f63" />
-  <img width="230" alt="Patient medical records" src="https://github.com/user-attachments/assets/b2b0ad7b-d7d3-4068-bae2-3308bafc6831" /> 
-  <img width="230" alt="Hospital medical records" src="https://github.com/user-attachments/assets/75d6fb9f-400e-4f98-a05b-d5df270092fd" />
+  <img width="230" height="470" alt="Add medical record" src="https://github.com/user-attachments/assets/65eea734-d5ea-46d4-84bb-8bd311934f63" />
+  <img width="230" height="470" alt="Patient medical records" src="https://github.com/user-attachments/assets/b2b0ad7b-d7d3-4068-bae2-3308bafc6831" /> 
+  <img width="230" height="470" alt="Hospital medical records" src="https://github.com/user-attachments/assets/75d6fb9f-400e-4f98-a05b-d5df270092fd" />
 </p>
 
 Both patients and hospitals can add records. The information displayed when viewing records depends on the type of user accessing them.
